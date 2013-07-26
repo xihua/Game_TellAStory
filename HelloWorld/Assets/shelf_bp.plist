@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+		<key>picture</key>
+		<array>
+			<string>shelf.png</string>		
+			<string>story\\can.png</string>
+			<string>story\\stean.png</string>
+			<string>story\\string\\s_0.png</string>
+		</array>
+  
+		<key>point</key>
+		<array>
+			<string>{0.5,0.5}</string>
+			<string>{0.5,0.5}</string>
+			<string>{0.5,0.5}</string>
+			<string>{0.5,0.5}</string>
+		</array>
+
+		<key>scale</key>
+		<array>
+			<string>1</string>
+			<string>.3</string>
+			<string>.3</string>
+			<string>.3</string>
+		</array>
+
+		<key>button</key>
+		<dict>
+		<key>button_img</key>
+		<array>
+			<string>book_bd.png</string>
+			<string>book_bd.png</string>
+			<string>book_bd.png</string>
+			<string>book_bd.png</string>
+		</array>
+
+		<key>button_pos</key>
+		<array>
+			<string>{0.2,0.7}</string>
+			<string>{0.55,0.7}</string>
+			<string>{0.2,0.3}</string>
+			<string>{0.55,0.3}</string>
+		</array>
+
+		<key>button_fun</key>
+		<array>
+		<integer>1</integer>
+		<integer>2</integer>
+		<integer>3</integer>
+		<integer>4</integer>
+		</array>
+		</dict>
+
+  
+</dict>
+</plist>

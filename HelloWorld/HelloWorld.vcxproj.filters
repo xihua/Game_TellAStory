@@ -1,0 +1,845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>17b52f90-9b33-4188-8a0e-808582bbabbc</UniqueIdentifier>
+      <Extensions>ico;bmp;dlg;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;resw;resjson</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{9e558cc3-4f4b-4a51-a5bb-bb99c608ba07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{3b5746b0-a71b-4e4a-8446-cae020d3584c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{3f5a98d3-f467-4716-89d3-d7db8b9389ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\story">
+      <UniqueIdentifier>{8a4c399c-9cf5-4b95-8586-20eb8e8b4a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\story\audio">
+      <UniqueIdentifier>{bbef301a-bb98-4702-9f35-12460a206573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\story\string">
+      <UniqueIdentifier>{be957ecf-9638-4f5f-8a06-1d2c43dbf31f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\story\sceneOrder">
+      <UniqueIdentifier>{5e037834-b81f-448a-b510-00550a7a0e4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="SplashScreenImage.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\IconicTileSmall.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\HelloWorld.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\gameart.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\PLAY_btn.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\PLAY_btn2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\bg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\play_next2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\cloudy.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\play_next.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\story\story_bg.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\story_board.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\ani.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\select_control.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\story\can.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\stean.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\can_eye.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\can_eye1.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\can_mouth.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\stean_eye.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\stean_eye1.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\stean_mouth.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\stean_mouth1.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_0.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_1.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_2.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_3.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_4.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_5.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_6.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_7.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_8.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_9.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_10.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_11.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_12.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_13.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_14.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string\s_15.png">
+      <Filter>Assets\story\string</Filter>
+    </Image>
+    <Image Include="Assets\story\string_bd.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\book_bd.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\shelf.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\story\sky.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\af_bg.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\bird1.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\bird2.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\bool.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\buttergfly.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\can1.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\fish.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\ground.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\p1.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\p1_l.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\p2.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\p2_l.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\p3.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\p3_l.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\story\tree.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\string_home.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\string_replay.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\btn_home.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\btn_replay.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\end_bd.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\string_end.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\play_forward.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\play_forward2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\background.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\story\story_1.png">
+      <Filter>Assets\story</Filter>
+    </Image>
+    <Image Include="Assets\book_unable.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\IconicTileMedium.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\ApplicationIcon.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include=".\cocos2dorig.cpp" />
+    <ClCompile Include="Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\GameScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\MainMenu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\EndStory.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ShelfScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\cocos2dorig.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BasicLoader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BasicReaderWriter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCAccelerometer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCAccelerometer_platform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCAccelerometer_win8_metro.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCAccelerometerDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCAction.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCActionCamera.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCActionCatmullRom.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCActionEase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCActionGrid.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCActionGrid3D.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCActionInstant.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCActionInterval.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCActionManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCActionPageTurn3D.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCActionProgressTimer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCActionTiledGrid.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCActionTween.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCAffineTransform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCAnimation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCAnimationCache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCApplication.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCApplication_platform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCApplication_win8_metro.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCArchOptimalParticleSystem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCArray.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCAtlasNode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCAutoreleasePool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCBool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCCamera.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ccCArray.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCCommon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ccConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCConfiguration.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCDictionary.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCDirector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCDouble.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCDrawingPrimitives.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCDrawNode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCEGLView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCEGLView_platform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCEGLView_win8_metro.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCEventType.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCFileUtils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCFloat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCGeometry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCGL.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCGrabber.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCGrid.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCIMEDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCIMEDispatcher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCInteger.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCKeypadDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCKeypadDispatcher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCLabelAtlas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCLabelBMFont.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCLabelTTF.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCLibxml2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ccMacros.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCMenu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCMenuItem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCMotionStreak.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCNode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCNotificationCenter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCNS.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCObject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCParallaxNode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCParticleExamples.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCParticleSystem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCParticleSystemPoint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCParticleSystemQuad.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCPlatformConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCPlatformMacros.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCPointExtension.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCProgressTimer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCProtocols.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCRenderTexture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCRibbon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCSAXParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCScheduler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCScriptSupport.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCSet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCSprite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCSpriteBatchNode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCSpriteFrame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCSpriteFrameCache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCStdC.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCString.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTextFieldTTF.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTexture2D.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTextureAtlas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTextureCache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTexturePVR.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCThread.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTileMapAtlas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTMXLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTMXObjectGroup.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTMXTiledMap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTMXXMLParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTouch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTouchDelegateProtocol.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTouchDispatcher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTouchHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTransition.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTransitionPageTurn.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCTransitionProgress.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ccTypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCUserDefault.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CCZone.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cocos2d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\corewrappers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\d3d11shader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\d3dcompiler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DirectXHelper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DirectXRender.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DXTextPainter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FTTextPainter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\platform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shcore.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SimpleAudioEngine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\uthash.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utlist.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\xinput.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\GameScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\MainMenu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\ShelfScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\EndStory.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CCDrawingPixelShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCDrawingVertexShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCGridPixelShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCGridVertexShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCLayerColorPixelShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCLayerColorVertexShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCParticlePixelShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCParticleVertexShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCProgressTimerPixelShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCProgressTimerVertexShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCSpritePixelShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCSpriteVertexShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCTexture2DPixelShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCTexture2DVertexShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCTextureAtlasPixelShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CCTextureAtlasVertexShader.cso">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Assets\gameart.plist">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\ani.plist">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene0.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene1.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene2.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene3.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene4.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene5.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\shelf.plist">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene10.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene11.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene12.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene13.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene14.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene15.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene6.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene7.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene8.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\story\sceneOrder\scene9.plist">
+      <Filter>Assets\story\sceneOrder</Filter>
+    </None>
+    <None Include="Assets\end.plist">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\background.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\0.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\1.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\2.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\3.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\4.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\5.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\6.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\7.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\8.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\9.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\10.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\11.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\12.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\13.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\14.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\story\audio\15.wav">
+      <Filter>Assets\story\audio</Filter>
+    </Media>
+    <Media Include="Assets\open.wav">
+      <Filter>Assets</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

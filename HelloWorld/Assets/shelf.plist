@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+		<key>picture</key>
+		<array>
+			<string>shelf.png</string>
+      <string>book_bd.png</string>
+			<string>book_unable.png</string>
+      <string>book_unable.png</string>
+      <string>book_unable.png</string>		
+		</array>
+  
+		<key>point</key>
+		<array>
+			<string>{0.5,0.5}</string>
+			<string>{0.2,0.7}</string>
+			<string>{0.55,0.7}</string>
+			<string>{0.2,0.3}</string>
+			<string>{0.55,0.3}</string>
+		</array>
+
+		<key>scale</key>
+		<array>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+      <string>1</string>
+		</array>
+
+		<key>button</key>
+		<dict>
+		<key>button_img</key>
+		<array>
+		<string>story\\story_1.png</string>		
+		</array>
+
+		<key>button_pos</key>
+		<array>
+    <string>{0.2,0.7}</string>
+		</array>
+
+		<key>button_fun</key>
+		<array>
+		<integer>1</integer>
+		</array>
+		</dict>
+  
+  
+    <key>animation</key>
+    <dict>
+    <key>ani_img</key>
+    <array>
+      <string>frogjump8.png</string>
+      <string>frogjump7.png</string>
+      <string>frogjump6.png</string>
+      <string>frogjump5.png</string>
+      <string>frogjump4.png</string>
+      <string>frogjump3.png</string>
+      <string>frogjump2.png</string>
+      <string>frogjump1.png</string>
+      <string>frogjump0.png</string>
+      <string>frog0.png</string>
+      <string>frog1.png</string>
+    </array>
+
+    </dict>
+  
+</dict>
+</plist>

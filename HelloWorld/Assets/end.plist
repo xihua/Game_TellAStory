@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+		<key>picture</key>
+		<array>
+			<string>background.png</string>	
+			<string>end_bd.png</string>
+			<string>string_end.png</string>
+		</array>
+  
+		<key>point</key>
+		<array>
+			<string>{0.5,0.5}</string>
+			<string>{0.5,0.50}</string>
+		  <string>{0.5,0.85}</string>
+		</array>
+
+		<key>button</key>
+		<dict>
+		<key>button_img</key>
+		<array>
+			<string>btn_home.png</string>
+		   <string>string_home.png</string>
+
+		  <string>btn_replay.png</string>
+		  <string>string_replay.png</string>		
+		</array>
+
+		<key>button_pos</key>
+		<array>
+		  <string>{0.35,0.5}</string>
+		  <string>{0.35,0.3}</string>
+
+		  <string>{0.65,0.5}</string>
+		  <string>{0.65,0.3}</string>
+		</array>
+
+		<key>button_fun</key>
+		<array>
+		<integer>0</integer>
+		<integer>0</integer>
+
+		<integer>3</integer>
+		<integer>3</integer>
+		</array>
+		</dict>
+		
+  
+</dict>
+</plist>

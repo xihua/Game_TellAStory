@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+		<key>picture</key>
+		<array>
+			<string>story\\af_bg.png</string>	
+
+			<string>story\\stean.png</string>
+		  <string>story\\stean_eye.png</string>
+		  <string>story\\stean_eye.png</string>
+		<string>story\\stean_mouth.png</string>
+
+		<string>story\\string_bd.png</string>
+		<string>story\\string\\s_11.png</string>
+		</array>
+  
+		<key>point</key>
+		<array>
+			<string>{0.5,0.5}</string>
+
+		  <string>{0.8,0.50}</string>
+		  <string>{0.76,0.55}</string>
+		  <string>{0.8,0.55}</string>
+		  <string>{0.78,0.45}</string>
+
+		  <string>{0.5,0.15}</string>
+		  <string>{0.5,0.15}</string>
+		</array>
+  
+</dict>
+</plist>
