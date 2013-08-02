@@ -21,6 +21,7 @@
 #include "GameScene.h"
 #include "EndStory.h"
 #include "ShelfScene.h"
+#include"AppDelegate.h"
 
 #include "CCCommon.h"
 #include "BasicLoader.h"
@@ -83,6 +84,12 @@ bool GameScene::init()
 		CCString * pString,*SoundString;
 		CCSize size=CCDirector::sharedDirector()->getWinSize();
 
+		////添加背景
+		//CCSprite *b = CCSprite::create("cloudy.png");
+		//b->setPosition(ccp(size.width * 0.5, size.height * 0.5));	
+		//b->setScale(AppDelegate::getResRate());
+		//this->addChild(b);
+
 		pString  =CCString ::createWithFormat("story\\sceneOrder\\scene%d.plist",SceneNo);
 		SoundString  =CCString ::createWithFormat("Assets\\story\\audio\\%d.wav",SceneNo);
 		
@@ -98,6 +105,7 @@ bool GameScene::init()
 			CCString* point_string = (CCString*)point_array->objectAtIndex(i);//获取图片坐标
 			CCPoint point = CCPointFromString(point_string->getCString());
 			sprite->setPosition(ccp(size.width*point.x,size.height*point.y));
+			sprite->setScale(AppDelegate::getResRate());
 			this->addChild(sprite,1);
 		}	
 

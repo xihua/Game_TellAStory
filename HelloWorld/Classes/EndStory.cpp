@@ -21,6 +21,7 @@
 #include "EndStory.h"
 #include "GameScene.h"
 #include "ShelfScene.h"
+#include "AppDelegate.h"
 
 #include "CCCommon.h"
 #include "BasicLoader.h"
@@ -128,9 +129,9 @@ bool EndStory::init()
 			CCString* pi_string = (CCString*)picture_array->objectAtIndex(i);
 			CCSprite* sprite = CCSprite::create(pi_string->getCString());
 
-		//	//CCString* scale_string = (CCString*)scale_array->objectAtIndex(i);
-		//	//int scale = scale_string->intValue();
-		//	//sprite->setScale(scale);
+			//CCString* scale_string = (CCString*)scale_array->objectAtIndex(i);
+			//int scale = scale_string->intValue();
+			sprite->setScale(AppDelegate::getResRate());
 
 			CCString* point_string = (CCString*)point_array->objectAtIndex(i);
 			CCPoint point = CCPointFromString(point_string->getCString());

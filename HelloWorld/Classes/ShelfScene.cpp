@@ -26,6 +26,7 @@
 #include <vector>
 #include <time.h>
 #include "SimpleAudioEngine.h"
+#include"AppDelegate.h"
 
 
 using namespace cocos2d;
@@ -115,7 +116,7 @@ bool ShelfScene::init()
 
 		picture_array = (CCArray*)plistDic->objectForKey("picture");
 		point_array = (CCArray*)plistDic->objectForKey("point");
-		CCArray* scale_array = (CCArray*)plistDic->objectForKey("scale");
+		//CCArray* scale_array = (CCArray*)plistDic->objectForKey("scale");
 		for (int i=0;i<picture_array->count();i++)
 		{
 			CCString* pi_string = (CCString*)picture_array->objectAtIndex(i);
@@ -125,44 +126,45 @@ bool ShelfScene::init()
 			CCPoint point = CCPointFromString(point_string->getCString());
 			sprite->setPosition(ccp(size.width*point.x,size.height*point.y));
 		
-			CCString* scale_string = (CCString*)scale_array->objectAtIndex(i);
-			int scale = scale_string->intValue();
-			sprite->setScale(scale);
+			//CCString* scale_string = (CCString*)scale_array->objectAtIndex(i);
+			//int scale = scale_string->intValue();
+			//sprite->setScale(scale);
+			sprite->setScale(AppDelegate::getResRate());
 
 			this->addChild(sprite,10);
 		}	
 		
-		////动画载入
-		//CCSpriteFrameCache *cache = CCSpriteFrameCache::sharedSpriteFrameCache();
-		//cache->addSpriteFramesWithFile("gameart.plist", "gameart.png");
-		//Dic = (CCDictionary*)plistDic->objectForKey("animation");
-		//picture_array = (CCArray*)Dic->objectForKey("ani_img");
-		//CCArray *animFrames = new CCArray(picture_array->count()); 
-		//for (int i=0;i<picture_array->count();i++)
-		//{
-		//	CCString* pi_string = (CCString*)picture_array->objectAtIndex(i);
-		//	CCSpriteFrame *frame = cache->spriteFrameByName(pi_string->getCString()); 
-		//	animFrames->addObject(frame);
-		//}	
+		//动画载入
+		CCSpriteFrameCache *cache = CCSpriteFrameCache::sharedSpriteFrameCache();
+		cache->addSpriteFramesWithFile("gameart.plist", "gameart.png");
+		Dic = (CCDictionary*)plistDic->objectForKey("animation");
+		picture_array = (CCArray*)Dic->objectForKey("ani_img");
+		CCArray *animFrames = new CCArray(picture_array->count()); 
+		for (int i=0;i<picture_array->count();i++)
+		{
+			CCString* pi_string = (CCString*)picture_array->objectAtIndex(i);
+			CCSpriteFrame *frame = cache->spriteFrameByName(pi_string->getCString()); 
+			animFrames->addObject(frame);
+		}	
 
-		//CCAnimation *animation = CCAnimation::createWithSpriteFrames(animFrames,0.1f);
-		//CCString* pi_string = (CCString*)picture_array->objectAtIndex(0);
-		//CCSprite *pSprite = CCSprite::createWithSpriteFrameName(pi_string->getCString());
-		//this->addChild(pSprite,20);
-		//pSprite->setPosition(ccp(size.width*0.8, size.height*0.15));
-		//pSprite->runAction(CCRepeatForever::create(CCAnimate::create(animation)));
+		CCAnimation *animation = CCAnimation::createWithSpriteFrames(animFrames,0.1f);
+		CCString* pi_string = (CCString*)picture_array->objectAtIndex(0);
+		CCSprite *pSprite = CCSprite::createWithSpriteFrameName(pi_string->getCString());
+		this->addChild(pSprite,20);
+		pSprite->setPosition(ccp(size.width*0.8, size.height*0.15));
+		pSprite->runAction(CCRepeatForever::create(CCAnimate::create(animation)));
 
 
-		//CCMoveTo* MoveToM= CCMoveTo::create(1.0f,ccp(size.width*0.5, size.height*.15));
-		//CCDelayTime *waiting=CCDelayTime::create(1);  
-		//CCMoveTo* MoveToL= CCMoveTo::create(1.0f,ccp(size.width*0.2, size.height*.15));
-		//CCFlipX * fX=CCFlipX::create(true); 
-		//CCMoveTo* MoveToR= CCMoveTo::create(1.0f,ccp(size.width*0.8, size.height*.15));
-		//CCFlipX * fX2=CCFlipX::create(false);
+		CCMoveTo* MoveToM= CCMoveTo::create(1.0f,ccp(size.width*0.5, size.height*.15));
+		CCDelayTime *waiting=CCDelayTime::create(1);  
+		CCMoveTo* MoveToL= CCMoveTo::create(1.0f,ccp(size.width*0.2, size.height*.15));
+		CCFlipX * fX=CCFlipX::create(true); 
+		CCMoveTo* MoveToR= CCMoveTo::create(1.0f,ccp(size.width*0.8, size.height*.15));
+		CCFlipX * fX2=CCFlipX::create(false);
 
-		//CCFiniteTimeAction* action= CCSequence::create(MoveToM,waiting,MoveToL,fX,MoveToM,waiting,MoveToR,fX2,NULL);  //动画序列
-		//CCActionInterval* actionMove=CCRepeatForever::create((CCActionInterval*)action);  
-		//pSprite->runAction(actionMove);
+		CCFiniteTimeAction* action= CCSequence::create(MoveToM,waiting,MoveToL,fX,MoveToM,waiting,MoveToR,fX2,NULL);  //动画序列
+		CCActionInterval* actionMove=CCRepeatForever::create((CCActionInterval*)action);  
+		pSprite->runAction(actionMove);
 
 
 		setTouchEnabled(false);//禁止触摸

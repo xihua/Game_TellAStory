@@ -1,4 +1,4 @@
-/*
+﻿/*
 * cocos2d-x   http://www.cocos2d-x.org
 *
 * Copyright (c) 2010-2011 - cocos2d-x community
@@ -27,6 +27,10 @@
 #include "CCEGLView.h"
 USING_NS_CC;
 
+static float resRate=1;
+float AppDelegate::getResRate(){
+	return resRate;//适应屏幕比例
+}
 AppDelegate::AppDelegate()
 {
 }
@@ -47,25 +51,30 @@ bool AppDelegate::initInstance()
 	void* buff=_aligned_malloc(sizeof(CCEGLView),16);
 	CCEGLView* mainView = new (buff) CCEGLView();
 	mainView->Create();
-	//mainView->Create();
 	//mainView->setDesignResolution(480, 320);
 	//mainView->setDesignResolution(640, 1066);
 	CCLOG("Device Res:%d", m_deviceResolutionInPixels);
+	
 	switch (m_deviceResolutionInPixels) 
 	{
 	case DeviceResolutionInPixels_WVGA: 
 		{
 			mainView->setDesignResolution(480, 800);
+			//mainView->setDesignResolutionSize(480, 800, kResolutionShowAll);
 			break;
 		}
 	case DeviceResolutionInPixels_720p: 
 		{
+			//mainView->setDesignResolutionSize(720, 1280,kResolutionShowAll);//自适应分辨率引擎没有实现
 			mainView->setDesignResolution(720, 1280);
+			resRate=1.6f;//1280/800=1.6;
 			break;
 		}	
 	case DeviceResolutionInPixels_WXGA: 
 		{
+			//mainView->setDesignResolutionSize(480, 800, kResolutionShowAll);
 			mainView->setDesignResolution(768, 1280);
+			resRate=1.6f;
 			break;
 		}
 	}
@@ -88,7 +97,7 @@ bool AppDelegate::applicationDidFinishLaunching()
 
 	// turn on display FPS
 	//pDirector->setDisplayFPS(false);
-	//pDirector->setDeviceOrientation(kCCDeviceOrientationPortrait);//�����Ľ��棬����Ǻ����ľ͸ĳ�����ġ�
+	//pDirector->setDeviceOrientation(kCCDeviceOrientationPortrait);//竖屏的界面，如果是横屏的就改成下面的。
 	pDirector->setDeviceOrientation(CCDeviceOrientationLandscapeLeft);
 	// set FPS. the default value is 1.0/60 if you don't call this
 	//pDirector->setAnimationInterval(1.0 / 60);

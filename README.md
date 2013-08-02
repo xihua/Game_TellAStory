@@ -15,44 +15,15 @@ System requirements
 - Windows 8 
 - Visual Studio 2012
 - Windows Phone 8 SDK Final
-qinli 
 
 朱冠华 xihua1993@gmail.com
-高远  kael@qq.com
 
-柯立秋 1334514199@qq.com 
-
-
-Tang Mengqun��come on����
 
 <<<<<<< HEAD
-qiutianyi
-=======
-Qi Ma
 
 >>>>>>> 86c7f1719c090b058c575334ff680bc9ca1ac18a
 
-袁康 yuankang@qq.com
 
-
-
-
-潘蓬勃 paolun@qq.com
-
-肖伟 xiaowei@qq.com
-
-
-
-
-
-
-王俊英  eaglewang@qq.com
-
-<<<<<<< HEAD
-qiutianyi yes
-=======
-qiuxu: qiuxu@qq.com
->>>>>>> 86c7f1719c090b058c575334ff680bc9ca1ac18a
 
 
 

@@ -25,6 +25,7 @@
 #include <wrl\client.h>
 #include <memory>
 #include <vector>
+#include "CCApplication.h"
 
 class HelloWorld : public cocos2d::CCLayerColor
 {

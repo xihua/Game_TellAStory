@@ -21,6 +21,7 @@
 #include "MainMenu.h"
 #include "GameScene.h"
 #include "ShelfScene.h"
+#include "AppDelegate.h"
 
 #include "CCCommon.h"
 #include "BasicLoader.h"
@@ -33,7 +34,6 @@ using namespace cocos2d;
 using namespace Windows::Foundation;
 using namespace Windows::Devices::Sensors;
 using namespace CocosDenshion;
-
 
 HelloWorld::HelloWorld()
 {
@@ -85,7 +85,8 @@ bool HelloWorld::init()
 
 		//添加背景
 		CCSprite *b = CCSprite::create("bg.png");
-		b->setPosition(ccp(size.width * 0.5, size.height * 0.5));
+		b->setPosition(ccp(size.width * 0.5, size.height * 0.5));	
+		b->setScale(AppDelegate::getResRate());
 		this->addChild(b);
 
 		//添加背景音乐
