@@ -1,9 +1,9 @@
 ﻿
-	1. Assets 资源放置问题
+	1. debug音效可以，release不行
 	2. CCSprite::create与CCSprite::createWithSpriteFrameName加载图片冲突
 	3. 对声音分段播放的控制
 	4. 文字乱码（simhei 也不行）
 	5. 多个scene的plist集中到一个，how？
-        6. rotate scale 参考点是？
+
 
 

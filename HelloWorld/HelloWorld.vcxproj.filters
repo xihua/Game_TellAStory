@@ -790,6 +790,9 @@
     <Media Include="Assets\background.wav">
       <Filter>Assets</Filter>
     </Media>
+    <Media Include="Assets\open.wav">
+      <Filter>Assets</Filter>
+    </Media>
     <Media Include="Assets\story\audio\0.wav">
       <Filter>Assets\story\audio</Filter>
     </Media>
@@ -837,9 +840,6 @@
     </Media>
     <Media Include="Assets\story\audio\15.wav">
       <Filter>Assets\story\audio</Filter>
-    </Media>
-    <Media Include="Assets\open.wav">
-      <Filter>Assets</Filter>
     </Media>
   </ItemGroup>
 </Project>
