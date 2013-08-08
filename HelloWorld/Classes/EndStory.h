@@ -42,7 +42,7 @@ public:
 	// implement the "static create()" method manually
 	 CREATE_FUNC(EndStory);
 
-	void registerWithTouchDispatcher();
+	//void registerWithTouchDispatcher();
 
 	void EndStory::goToShelf(CCObject *sender);
 	void EndStory::replayScene(CCObject *sender);

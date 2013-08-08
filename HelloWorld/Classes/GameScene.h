@@ -45,7 +45,7 @@ public:
 	// implement the "static create()" method manually
 	 CREATE_FUNC(GameScene);
 
-	void registerWithTouchDispatcher();
+	//void registerWithTouchDispatcher();
 	void GameScene::NextScene(CCObject *sender);
 	void GameScene::ForwardScene(CCObject *sender);
 

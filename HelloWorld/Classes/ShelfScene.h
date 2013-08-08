@@ -42,7 +42,7 @@ public:
 	// implement the "static create()" method manually
 	 CREATE_FUNC(ShelfScene);
 
-	void registerWithTouchDispatcher();
+	//void registerWithTouchDispatcher();
 
 protected:
 	void ShelfScene::goToBook(CCObject *sender);
