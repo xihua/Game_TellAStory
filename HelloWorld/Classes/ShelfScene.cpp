@@ -63,6 +63,7 @@ bool ShelfScene::init()
 		CCSize size=CCDirector::sharedDirector()->getWinSize();	
 		
 		SimpleAudioEngine::sharedEngine()->playEffect("Assets\\open.wav");
+		SimpleAudioEngine::sharedEngine()->setEffectsVolume(1);
 
 		//按钮的载入
 		pString  =CCString ::createWithFormat("shelf.plist");
