@@ -47,7 +47,6 @@ public:
 	//void registerWithTouchDispatcher();
 
 	 void playCallback(CCObject* sender);
-
 protected:
 
 private:

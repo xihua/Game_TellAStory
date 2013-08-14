@@ -59,8 +59,10 @@ public:
     virtual void applicationWillEnterForeground();
 
 	virtual void applicationViewStateChanged(int newState, int oldState){};
-	virtual void deviceBackBttonPressed(Platform::Object^ sender, BackPressedEventArgs^ args){};
+	virtual void deviceBackBttonPressed(Platform::Object^ sender, BackPressedEventArgs^ args);
 	static float getResRate();
+	static int getContorlNo();
+	static void setContorlNo(int);
 };
 
 #endif // _APP_DELEGATE_H_

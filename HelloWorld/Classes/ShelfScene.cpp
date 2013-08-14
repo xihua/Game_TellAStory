@@ -159,7 +159,7 @@ bool ShelfScene::init()
 }
 
 void ShelfScene::goToBook(CCObject *sender){
-	SimpleAudioEngine::sharedEngine()->unloadEffect("Assets\\open.wav");
+	SimpleAudioEngine::sharedEngine()->unloadEffect("Assets\\open.wav");AppDelegate::setContorlNo(1);
 	CCDirector::sharedDirector()->replaceScene(CCTransitionJumpZoom::create(1,GameScene::scene()));
 }
 

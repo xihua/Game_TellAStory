@@ -64,13 +64,12 @@ bool HelloWorld::init()
 		//pLabel->setPosition( ccp(size.width * 0.5, size.height * 0.5) );
 		//pLabel->setColor(ccc3(160, 80, 5));
 		//this->addChild(pLabel, 10);
-
 		//添加背景
 		CCSprite *b = CCSprite::create("bg.png");
 		b->setPosition(ccp(size.width * 0.5, size.height * 0.5));	
 		b->setScale(AppDelegate::getResRate());
 		this->addChild(b);
-
+		//CCLog("Scene%d",this->getTag());
 		//添加背景音乐
 		SimpleAudioEngine::sharedEngine()->playBackgroundMusic("Assets\\background.wav", true);//绝对路径
 
@@ -108,7 +107,7 @@ bool HelloWorld::init()
 		pSprite->setPosition(ccp(size.width*0.4, size.height*0.6));
 
 		pSprite->runAction(CCRepeatForever::create(CCAnimate::create(animation)));
-
+		AppDelegate::setContorlNo(-1);
 		setTouchEnabled(true);
 
 		bRet = true;
@@ -143,5 +142,6 @@ void HelloWorld::playCallback(CCObject* sender)
 {
 	//切换到下一个场景
 	//CCDirector::sharedDirector()->replaceScene(CCTransitionMoveInR::create(1,ShelfScene::scene()));
+	AppDelegate::setContorlNo(0);
 	CCDirector::sharedDirector()->replaceScene(ShelfScene::scene());
 }

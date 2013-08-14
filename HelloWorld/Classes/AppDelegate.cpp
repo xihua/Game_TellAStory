@@ -22,15 +22,24 @@
 
 #include "cocos2d.h"
 #include "Classes\Mainmenu.h"
-
-
+#include "SimpleAudioEngine.h"
 #include "CCEGLView.h"
+using namespace CocosDenshion;
 USING_NS_CC;
 
 static float resRate=1;
+static int ContorlNo;
 float AppDelegate::getResRate(){
 	return resRate;//适应屏幕比例
 }
+
+int AppDelegate::getContorlNo(){
+	return ContorlNo;//适应屏幕比例
+}
+void AppDelegate::setContorlNo(int num){
+	ContorlNo=num;//适应屏幕比例
+}
+
 AppDelegate::AppDelegate()
 {
 }
@@ -104,7 +113,7 @@ bool AppDelegate::applicationDidFinishLaunching()
 
 	// create a scene. it's an autorelease object
 	CCScene *pScene = HelloWorld::scene();
-
+	setContorlNo(-1);
 	// run
 	pDirector->runWithScene(pScene);
 
@@ -123,4 +132,14 @@ void AppDelegate::applicationDidEnterBackground()
 void AppDelegate::applicationWillEnterForeground()
 {
     CCDirector::sharedDirector()->resume();
+}
+
+void AppDelegate::deviceBackBttonPressed(Platform::Object^ sender, BackPressedEventArgs^ args)
+{
+	
+	if(ContorlNo!=-1){
+		SimpleAudioEngine::sharedEngine()->stopAllEffects();
+		CCDirector::sharedDirector()->replaceScene(HelloWorld::scene());
+		args->Handled = true;}
+	else args->Handled = false;
 }
